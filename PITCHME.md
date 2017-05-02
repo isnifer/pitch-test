@@ -35,3 +35,21 @@ npm i tipsi-appium-helper --save-dev
 Yarn, покойся с миром
 
 ---
+
+### Конфигурация - RC file (.appiumhelperrc)
+
+---
+
+```json
+{
+  "testsGlob": "./__tests__/e2e/suites",
+  "register": "./__tests__/e2e/setup",
+  "fullReset": true,
+  "ios": {
+    "appPath": "./ios/build/Build/Products/Release-iphonesimulator/tipsi.app"
+  },
+  "android": {
+    "appPath": "./android/app/build/outputs/apk/app-release.apk"
+  }
+}
+```
