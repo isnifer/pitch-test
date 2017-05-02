@@ -20,7 +20,15 @@
 6. Режим playground
 7. Максимально полные логи
 
----?gist=ccab594a7fa885c465fe86b46c1a029a
+---
+
+```sh
+npm i tipsi-appium-helper -g
+
+# or
+
+npm i tipsi-appium-helper --save-dev
+```
 
 ---
 
